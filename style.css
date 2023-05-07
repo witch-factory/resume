@@ -6,3 +6,8 @@ a{
 .margin-bottom-sm{
   margin-bottom:4px;
 }
+
+.no-marker{
+  list-style-type: none;
+  padding-left: 0;
+}
