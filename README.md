@@ -1,5 +1,4 @@
 <h1 class="margin-bottom-sm">김성현(Kim Sung Hyun)</h1>
-<hr>
 <p>
   프론트엔드 개발자입니다.
   열정적인 사람들을 좇다가 개발자가 되었고 그들과 함께해 왔습니다. 
@@ -30,7 +29,6 @@
     <li class="no-marker">
       <h3 class="margin-bottom-sm">밴드웨건 / 소프트웨어 마에스트로 13기(2022.07~2022.11)</h3>
     </li>
-    <li class="no-marker"><hr></li>
     <li class="no-marker">
       github 링크 : <a href="https://github.com/swm-broccoli/bandwagon-frontend-revise">https://github.com/swm-broccoli/bandwagon-frontend-revise</a>
     </li>
@@ -55,7 +53,6 @@
     <li class="no-marker">
       <h3 class="margin-bottom-sm">터미널 텍스트 에디터 제작(2021.04~2021.06)</h3>
     </li>
-    <li class="no-marker"><hr></li>
     <li class="no-marker">
       github 링크 : <a href="https://github.com/witch-factory/editor_project">https://github.com/witch-factory/editor_project</a>
     </li>
@@ -86,7 +83,6 @@
     <li class="no-marker">
       <small>홍익대학교의 개발 학회 GDSC Hongik에서 주관하는 DevTalk Seminar에서 외부 발표자로 발표하였습니다.</small>
     </li>
-    <li class="no-marker"><hr></li>
     <li>
       '내가 소프트웨어 마에스트로에서 배운 것들'이라는 주제로, 프로젝트를 진행할 때 고려해야 할 사항들에 대해 발표하였습니다.
     </li>
@@ -101,7 +97,6 @@
     <li class="no-marker">
       <small>신촌지역 5개 대학의 동아리 연합에서 활동하였습니다.</small>
     </li>
-    <li class="no-marker"><hr></li>
     <li>
       100명 규모의 2022 겨울 신촌지역 대학교 프로그래밍 동아리 연합 알고리즘 캠프 초급반 강사 활동(<a href="https://github.com/witch-factory/2022-winter-sinchon-lecture">강의자료 링크</a>)
     </li>
@@ -114,7 +109,6 @@
     <li class="no-marker">
       <h3 class="margin-bottom-sm">서강대학교 컴퓨터공학과 알고리즘 문제해결 학회 Sogang ICPC Team(<a href="https://icpc.team/">링크</a>)</h3>
     </li>
-    <li class="no-marker"><hr></li>
     <li>
       2022년 학회 최초로 복수전공 임원으로 활동
     </li>
@@ -135,7 +129,6 @@
     <li class="no-marker">
       <small>오픈카톡방 커뮤니티에서 시작한 오픈 컨퍼런스 BBConf에서 꾸준히 발표하고 있습니다.</small>
     </li>
-    <li class="no-marker"><hr></li>
     <li>
       '마녀'라는 닉네임으로 2020년부터 컨퍼런스에 참석하였고 '텍스트 에디터 제작기', '소프트웨어 마에스트로 후기'등의 주제를 발표하였습니다.
     </li>
@@ -153,7 +146,6 @@
     <li class="no-marker">
       <small>신촌지역 5개 대학의 동아리 연합에서 주최한 대회 수상 내역입니다.</small>
     </li>
-    <li class="no-marker"><hr></li>
     <li>
       2022 신촌지역 대학교 프로그래밍 동아리 연합 겨울 대회 5등(팀명 : ECM)
     </li>
@@ -168,7 +160,6 @@
     <li class="no-marker">
       <h3 class="margin-bottom-sm">전국 대학생 프로그래밍 대회 동아리 연합(<a href="https://ucpc.me/">링크</a>)</h3>
     </li>
-    <li class="no-marker"><hr></li>
     <li>
       2022년 여름 대회 본선 진출(팀명 : 축하합니다 김준호)
     </li>
@@ -180,7 +171,6 @@
     <li class="no-marker">
       <h3 class="margin-bottom-sm">서강대학교 기계공학과/컴퓨터공학과</h3>
     </li>
-    <li class="no-marker"><hr></li>
     <li>
       2015.03 ~ 2023.02 
     </li>
@@ -198,7 +188,6 @@
     <li class="no-marker">
       <h3 class="margin-bottom-sm">소프트웨어 마에스트로 13기</h3>
     </li>
-    <li class="no-marker"><hr></li>
     <li>
       2022.07 ~ 2022.11
     </li>
