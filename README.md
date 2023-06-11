@@ -29,7 +29,6 @@
     <li class="no-marker">
       <h3 class="margin-bottom-sm">개인 블로그 제작(2023.05~2023.06)</h3>
     </li>
-    <li class="no-marker"><hr></li>
     <li class="no-marker">
       페이지 링크 : <a target="_blank" href="https://witch.work/">
         https://witch.work
