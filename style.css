@@ -29,7 +29,6 @@ h2 {
   font-weight: bold;
   font-size: 1.5rem;
   line-height: 2rem;
-  margin-bottom: 1rem;
 }
 
 h3 {
@@ -68,11 +67,16 @@ li + li {
 hr {
   border: 0;
   border-top: 0.125rem solid #adb5bd;
-  margin: 0.5rem 0;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .intro {
   margin: 1rem 0;
+}
+
+.contact {
+  margin-bottom: 2rem;
 }
 
 .text-muted {
