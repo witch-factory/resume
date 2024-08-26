@@ -82,3 +82,26 @@ hr {
 .text-muted {
   color: #6c757d;
 }
+
+@media print {
+  li + li {
+    margin-top: 0.25rem;
+  }
+
+  hr {
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  section {
+    margin-bottom: 1rem;
+  }
+
+  h4 {
+    margin: 0.5rem 0;
+  }
+
+  .contact {
+    margin-bottom: 1rem;
+  }
+}
