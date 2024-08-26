@@ -1,0 +1,80 @@
+* {
+  font-family: Inter, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+}
+
+main {
+  padding: 2rem;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+address {
+  font-style: normal;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.75rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin: 1rem 0;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+// 프린트 시 간격 달라지도록 설정
+
+ul {
+  padding-left: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+li + li {
+  margin-top: 0.5rem;
+}
+
+hr {
+  border: 0;
+  border-top: 0.125rem solid #adb5bd;
+  margin: 0.5rem 0;
+}
+
+.intro {
+  margin: 1rem 0;
+}
+
+.text-muted {
+  color: #6c757d;
+}
