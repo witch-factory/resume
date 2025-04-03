@@ -7,214 +7,301 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main>
-      <h1>김성현 (Kim Sung Hyun)</h1>
-      <p class="intro">
-        프론트엔드 개발자입니다.
-        <br />
-        개발을 사랑합니다. 1초도 망설이지 않고 대답할 수 있습니다.
-      </p>
-      <div class="contact">
-        <ul>
-          <li>
-            블로그:&nbsp;<a target="_blank" href="https://witch.work"
-              >https://witch.work</a
-            >
-          </li>
-          <li>
-            GitHub:&nbsp;<a
-              target="_blank"
-              href="https://github.com/witch-factory"
-              >https://github.com/witch-factory</a
-            >
-          </li>
-          <li>
-            <address>
-              이메일:&nbsp;<a href="mailto:soakdma37@gmail.com"
-                >soakdma37@gmail.com</a
-              >
-            </address>
-          </li>
-        </ul>
+    <header class="owner-info">
+      <div class="owner-profile">
+        <h1 class="owner-profile-name">김성현</h1>
+        <p>제가 보았던 가장 멋진 사람들을 따라 개발자가 되었습니다.</p>
       </div>
-      <section>
-        <h2>보유 기술</h2>
-        <hr />
-        <ul>
-          <li>
-            React, Next.js로 프로젝트 수행 가능&nbsp;<a
-              target="_blank"
-              href="https://witch.work/posts/tag/blog"
-              >[프로젝트 기록]</a
+      <ul class="owner-contact">
+        <li>
+          블로그:&nbsp;<a target="_blank" href="https://witch.work"
+            >https://witch.work</a
+          >
+        </li>
+        <li>
+          GitHub:&nbsp;<a
+            target="_blank"
+            href="https://github.com/witch-factory"
+            >https://github.com/witch-factory</a
+          >
+        </li>
+        <li>
+          <address>
+            이메일:&nbsp;<a href="mailto:soakdma37@gmail.com"
+              >soakdma37@gmail.com</a
             >
-          </li>
-          <li>
-            JavaScript, TypeScript에 대한 깊은 이해&nbsp;<a
-              target="_blank"
-              href="https://witch.work/posts?search=%ED%83%90%EA%B5%AC%EC%83%9D%ED%99%9C"
-              >[탐구 기록]
-            </a>
-          </li>
-          <li>
-            Express, Prisma, Google Cloud Platform을 이용한 간단한 작업 수행
-            가능&nbsp;<a
-              target="_blank"
-              href="https://witch.work/posts/project-backend-gcp-deploy"
-              >[프로젝트 기록]
-            </a>
-          </li>
-        </ul>
+          </address>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section class="group">
+        <h2 class="group-title">소개</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
       </section>
-      <section>
-        <h2>경력</h2>
-        <hr />
-        <section>
-          <h3>Tmax FinAI</h3>
-          <p class="text-muted">2023.08 - 현재, 프론트엔드 연구원</p>
-          <h4>배달서비스공제조합 관리자 서비스</h4>
-          <ul>
-            <li>
-              기술:&nbsp;React, TypeScript, styled-components, React Hook Form,
-              React Query
-            </li>
-            <li>
-              보험처리를 위한 사고 정보 열람 페이지/팝업, 진료비 조회, 현장 출동
-              정보 페이지 구현
-            </li>
-            <li>
-              보험 가입 프로세스 단계별 페이지와 단계별로 변하는 UI, 에러 처리
-              구현
-            </li>
-            <li>
-              보험 페이지 전반에서 사용되는 탭, 라디오버튼, 프로그레스 바, 칩
-              등의 공통 컴포넌트 구현
-            </li>
-            <li>
-              클라이언트 요구사항 충족을 위해 HTML 시간 입력 필드의 동작을
-              분석하여 time picker 구현
-            </li>
-          </ul>
-        </section>
-      </section>
-      <section>
-        <h2>프로젝트</h2>
-        <hr />
-        <section>
-          <h3>신촌지역 대학생 프로그래밍 동아리 연합 프로그램 관리</h3>
-          <p class="text-muted">2024.05 - 현재, 프로그램 관리팀장</p>
-          <ul>
-            <li>
-              연합 홈페이지와 연합에서 운영하는 알고리즘 캠프의 관리자 페이지
-              개선, 관리
-            </li>
-            <li>
-              학생 정보 관리, 강의 출석 관리, 과제 제출 확인, 강의료 환급 등의
-              기능과 페이지 구현
-            </li>
-          </ul>
-          <h4>프론트엔드</h4>
-          <ul>
-            <li>
-              기술:&nbsp;Next.js, TypeScript, styled-components, Radix UI, SWR
-            </li>
-            <li>
-              Next.js 10 + JavaScript 코드를 Next.js 12 + TypeScript로
-              마이그레이션
-            </li>
-            <li>
-              기존 코드의 작성자와 코드의 의도를 논의하고 현재 필요한 기능과
-              확장 가능성을 고려하여 코드 리팩토링
-            </li>
-            <li>
-              광범위한 요소를 선택하는 DOM API 기반으로 짜여 변경을 어렵게 하던
-              코드를 React hook 기반으로 재작성
-            </li>
-            <li>
-              공통 컴포넌트에서 사용되지 않던 기능을 제거하고 Radix UI
-              라이브러리를 도입해 코드를 간결하게 개선
-            </li>
-          </ul>
-          <h4>백엔드</h4>
-          <ul>
-            <li>기술:&nbsp;Express, Prisma, Google Cloud Platform, Vitest</li>
-            <li>
-              Go와 raw query 기반으로 되어 있었던 기존 코드의 유지보수가
-              불가능하다고 판단하여 Node.JS, TypeScript, Prisma ORM 기반으로
-              재작성
-            </li>
-            <li>
-              디스코드 비대면 강의의 출석을 위해 discord.js 라이브러리를 이용해
-              출석 봇을 만들고 서버와 같이 배포
-            </li>
-          </ul>
-        </section>
-        <section>
-          <h3>
-            개인 블로그 제작&nbsp;<a target="_blank" href="https://witch.work/"
-              >[블로그]&nbsp;</a
-            >
-            <a
-              target="_blank"
-              href="https://github.com/witch-factory/witch-next-blog"
-            >
-              [GitHub]
-            </a>
-          </h3>
-          <p class="text-muted">2023.05 - 현재</p>
-          <ul>
-            <li>기술:&nbsp;Next.js, TypeScript, Vanilla-extract</li>
-            <li>remark 플러그인을 작성하여 글 목차, 썸네일 자동 생성 구현</li>
-            <li>
-              디바운싱 최적화가 적용된 글 검색, Redis를 사용한 조회수 카운터
-              기능 구현
-            </li>
-            <li>
-              사용자에게 컨텐츠를 빠르게 전달하기 위해 페이지 성능을 개선하여
-              lighthouse 성능 점수 20점 이상 향상
-            </li>
-            <li>
-              Next.js 13 버전의 RSC를 사용하도록 코드 변경, 라이브러리 버전
-              업데이트에 따른 코드 수정 등의 이슈 해결
-            </li>
-          </ul>
-        </section>
-        <section>
-          <h3>
-            사회인 밴드 플랫폼 밴드웨건&nbsp;<a
-              target="_blank"
-              href="https://github.com/swm-broccoli/bandwagon-frontend-revise"
-              >[GitHub]</a
-            >
-          </h3>
-          <p class="text-muted">
-            2022.07 - 2022.11, 소프트웨어 마에스트로 13기
-          </p>
-          <ul>
-            <li>기술:&nbsp;React, TypeScript, Zustand, Tailwind CSS</li>
-            <li>
-              로그인, 회원가입, 회원 정보 관리, 밴드 관리, 구인구직 게시판, 일정
-              관리 페이지 구현
-            </li>
-          </ul>
+      <section class="group">
+        <h2 class="group-title">경력</h2>
+        <section class="section">
+          <header class="section-header">
+            <div class="section-header-main">
+              <h3 class="section-title">Tmax FinAI</h3>
+              <p class="section-description">
+                보험 업무 전반을 위해 사용되는 배달서비스공제조합 페이지
+              </p>
+              <p class="section-tech">
+                React, TypeScript, styled-components, React Hook Form, React
+                Query
+              </p>
+            </div>
+            <div class="section-header-sub">
+              <p class="section-period">2023.08 - 2024.09</p>
+              <p class="section-role">프론트엔드 연구원</p>
+            </div>
+          </header>
+          <section class="item">
+            <h4 class="item-title">
+              팀의 생산성을 위하여 개발 환경을 개선할 수 있는 유틸리티 제작
+            </h4>
+            <ul>
+              <li>
+                Google Sheets에 정리된 보험 도메인 용어 데이터를 기반으로 JSON을
+                문서화할 수 있는 도구 개발
+              </li>
+              <li>
+                도메인 용어 정합성 검토를 위해, Google Sheets의 도메인 용어
+                데이터와 사용자 입력 데이터를 비교하는 자동화 도구 개발
+              </li>
+              <li>
+                웹소켓 기반의 일관성 없는 사내 서버 API 대응을 위해 팀 전반에
+                공유될 수 있는 커스텀 훅을 React Query를 이용해 구현
+              </li>
+            </ul>
+          </section>
+          <section class="item">
+            <h4 class="item-title">
+              클라이언트 요구사항을 충족하기 위한 페이지 구현
+            </h4>
+            <ul>
+              <li>
+                보험처리를 위한 사고 정보 열람 페이지/팝업, 진료비 조회, 현장
+                출동 정보 페이지 구현
+              </li>
+              <li>
+                보험 가입 프로세스 단계별 페이지와 단계별로 변하는 UI, 에러 처리
+                구현
+              </li>
+              <li>
+                보험 페이지 전반에서 사용되는 탭, 라디오버튼, 프로그레스 바, 칩
+                등의 공통 컴포넌트 구현
+              </li>
+              <li>
+                클라이언트 요구사항 충족을 위해 HTML 시간 입력 필드의 동작을
+                분석하여 time picker 구현
+              </li>
+            </ul>
+          </section>
         </section>
       </section>
 
-      <section>
-        <h2>발표</h2>
-        <hr />
-        <section>
-          <h3>
-            오픈 컨퍼런스 BBConf&nbsp;<a
-              target="_blank"
-              href="https://bbconf.kr/"
-              >[홈페이지]</a
-            >&nbsp;<a target="_blank" href="https://bbconf.kr/archive"
-              >[발표자료 아카이브]</a
-            >
-          </h3>
-          <p class="text-muted">2020 - 현재</p>
+      <section class="group">
+        <h2 class="group-title">프로젝트</h2>
+        <section class="section">
+          <header class="section-header">
+            <div class="section-header-main">
+              <div class="section-header-intro">
+                <h3 class="section-title">
+                  신촌지역 대학생 프로그래밍 동아리 연합
+                </h3>
+                <a
+                  target="_blank"
+                  href="https://icpc-sinchon.io"
+                  class="section-title-link"
+                  >홈페이지</a
+                >
+              </div>
+              <p class="section-description">
+                알고리즘 캠프 운영에 사용되는 홈페이지와 관리자 페이지 개선 작업
+              </p>
+              <p class="section-tech">
+                Next.js, TypeScript, styled-components, Radix UI, Express,
+                Prisma, Google Cloud Platform
+              </p>
+            </div>
+            <div class="section-header-sub">
+              <p class="section-period">2024.05 - 2024.12</p>
+              <p class="section-role">프로그램 관리팀장</p>
+            </div>
+          </header>
+
+          <section class="item">
+            <h4 class="item-title">프론트엔드 개발</h4>
+            <ul>
+              <li>
+                Next.js 10 + JavaScript 코드를 Next.js 12 + TypeScript로
+                마이그레이션
+              </li>
+              <li>
+                기존 코드의 작성자와 코드의 의도를 논의하고 현재 필요한 기능과
+                확장 가능성을 고려하여 코드 리팩토링
+              </li>
+              <li>
+                광범위한 요소를 선택하는 DOM API 기반으로 작성되어 변경을 어렵게
+                하던 코드를 React hook 기반으로 재작성
+              </li>
+              <li>
+                공통 컴포넌트에서 사용되지 않던 기능을 제거하고 Radix UI
+                라이브러리를 도입해 코드를 간결하게 개선
+              </li>
+            </ul>
+          </section>
+          <section class="item">
+            <h4 class="item-title">백엔드 개발</h4>
+            <ul>
+              <li>
+                학생 정보 관리, 강의 출석 관리, 과제 제출 확인, 강의료 계산 등의
+                기능을 수행하는 API 서버 작성
+              </li>
+              <li>
+                Go와 raw query 기반으로 되어 있었던 기존 코드를 Node.JS,
+                TypeScript, Prisma ORM 기반으로 재작성
+              </li>
+              <li>
+                디스코드 비대면 강의의 출석을 위해 discord.js 라이브러리를
+                이용해 출석 봇을 만들고 서버와 함께 배포
+              </li>
+            </ul>
+          </section>
+        </section>
+
+        <hr class="separator" />
+
+        <section class="section">
+          <header class="section-header">
+            <div class="section-header-main">
+              <div class="section-header-intro">
+                <h3 class="section-title">개인 블로그 제작</h3>
+                <a
+                  target="_blank"
+                  href="https://witch.work/"
+                  class="section-title-link"
+                  >배포 링크</a
+                >
+                <a
+                  target="_blank"
+                  href="https://github.com/witch-factory/witch-next-blog"
+                  class="section-title-link"
+                  >GitHub</a
+                >
+              </div>
+              <p class="section-description">
+                Next.js를 이용하며 다국어를 지원하는 개인 블로그
+              </p>
+              <p class="section-tech">Next.js, TypeScript, Vanilla-extract</p>
+            </div>
+            <div class="section-header-sub">
+              <p class="section-period">2023.05 - 현재</p>
+              <p class="section-role">블로그 운영자</p>
+            </div>
+          </header>
+
+          <section class="item">
+            <h4 class="item-title">블로그 구축</h4>
+            <ul>
+              <li>
+                Next.js 12를 이용하여 블로그를 구현하고 Next.js 13 서버 컴포넌트
+                업데이트 등 관리와 개선
+              </li>
+              <li>
+                remark 플러그인을 제작하여 TOC 제작, 마크다운 내의 이미지 경로
+                변경 등의 자동화
+              </li>
+              <li>
+                ESLint 9 도입 및 설정
+                <a
+                  target="_blank"
+                  href="https://witch.work/ko/posts/blog-eslint-configuration"
+                  >정리 글 링크</a
+                >
+              </li>
+              <li>
+                SEO를 위해 OG 이미지 생성기, 사이트 메타데이터, 사이트맵, RSS
+                피드 등을 도입
+              </li>
+            </ul>
+          </section>
+
+          <section class="item">
+            <h4 class="item-title">사용자 경험 개선을 위한 노력</h4>
+            <ul>
+              <li>
+                블로그의 글을 AI를 이용해 번역하고 다국어 지원 구현
+                <a
+                  target="_blank"
+                  href="https://witch.work/ko/posts/blog-auto-translation"
+                  >정리 글 링크</a
+                >
+              </li>
+              <li>
+                사용자 브라우저의 언어에 맞게 자동으로 언어를 변경하고 SEO 설정
+                <a
+                  target="_blank"
+                  href="https://witch.work/ko/posts/blog-content-i18n"
+                  >정리 글 링크</a
+                >
+              </li>
+              <li>
+                페이지 로딩 속도를 개선하기 위해 코드를 최적화하여 lighthouse
+                성능 점수 20점 이상 향상
+              </li>
+              <li>디바운싱 최적화가 적용된 글 검색 페이지 구현</li>
+            </ul>
+          </section>
+        </section>
+      </section>
+
+      <section class="group">
+        <h2 class="group-title">발표</h2>
+        <section class="section">
+          <header class="section-header">
+            <div class="section-header-main">
+              <div class="section-header-intro">
+                <h3 class="section-title">BBConf</h3>
+                <a
+                  target="_blank"
+                  href="https://bbconf.kr/"
+                  class="section-title-link"
+                  >홈페이지</a
+                >
+                <a
+                  target="_blank"
+                  href="https://bbconf.kr/archive"
+                  class="section-title-link"
+                  >발표자료 아카이브</a
+                >
+              </div>
+              <p class="section-description">
+                '각자 알고 있는 유용한 지식을 나누자'는 취지의 오픈 컨퍼런스
+              </p>
+            </div>
+            <div class="section-header-sub">
+              <p class="section-period">2021 - 현재</p>
+              <p class="section-role">발표자, 참여자</p>
+            </div>
+          </header>
           <ul>
             <li>'마녀'라는 닉네임으로 컨퍼런스 발표</li>
+            <li>
+              <a
+                _blank
+                href="https://bbconfwebdav.vulcan.site/bbconf/2024-winter/%ea%b9%80%ec%84%b1%ed%98%84_%eb%b8%8c%eb%9d%bc%ec%9a%b0%ec%a0%80%ec%97%90%20google%ec%9d%84%20%ec%b9%98%eb%a9%b4%20%ec%83%9d%ea%b8%b0%eb%8a%94%20%ec%9d%bc%ea%b9%8c%ec%a7%80%20%ec%83%9d%ea%b8%b4%20%ec%9d%bc.pdf"
+                >브라우저에서 google.com을 치면 생기는 일까지 생겼던 일</a
+              >
+            </li>
             <li>
               <a
                 target="_blank"
@@ -238,8 +325,28 @@
             </li>
           </ul>
         </section>
-        <section>
-          <h3>GDSC Hongik</h3>
+        
+        <section class="section">
+          <header class="section-header">
+            <div class="section-header-main">
+              <div class="section-header-intro">
+                <h3 class="section-title">GDG on Campus Hongik Univ.</h3>
+                <a
+                  target="_blank"
+                  href="https://www.gdschongik.com/"
+                  class="section-title-link"
+                  >홈페이지</a
+                >
+              </div>
+              <p class="section-description">
+                홍익대학교 최대 규모의 IT 커뮤니티
+              </p>
+            </div>
+            <div class="section-header-sub">
+              <p class="section-period">2023 - 2024</p>
+              <p class="section-role">발표자</p>
+            </div>
+          </header>
           <ul>
             <li>
               <a
@@ -256,13 +363,14 @@
               >
             </li>
           </ul>
-        </section>
       </section>
-      <section>
-        <h2>활동</h2>
-        <hr />
-        <section>
-          <h3>JavaScript 관련 활동</h3>
+      
+      <section class="group">
+        <h2 class="group-title">활동</h2>
+        <section class="item">
+          <h4 class="item-title">
+            글또 (글쓰는 개발자 모임) 9기, 10기 - 기술 블로그 운영 및 글 작성
+          </h4>
           <ul>
             <li>
               <a
@@ -274,6 +382,31 @@
               </a>
             </li>
             <li>
+              <a target="_blank" href="https://witch.work/ko/posts/javascript-closure-deep-dive-history">
+                클로저, 수학자들의 꿈에서 JavaScript의 스타가 되기까지
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://witch.work/ko/posts/typescript-covariance-theory">
+                TypeScript의 가변성(Variance)이란 무엇인가
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://witch.work/ko/posts/javascript-jscore-contribution"
+                >사파리의 Javascript 엔진, JavascriptCore 기여하기</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <section class="item">
+          <h4 class="item-title">
+            오픈소스 활동
+          </h4>
+          <ul>
+            <li>
               <a
                 href="https://github.com/mdn/content/pulls?q=is%3Apr+author%3A%08witch-factory"
                 >MDN 영문 문서 오류 수정</a
@@ -283,126 +416,88 @@
               >
             </li>
             <li>
-              <a
-                target="_blank"
-                href="https://github.com/WebKit/WebKit/pull/25696"
-              >
-                WebKit JavaScriptCore 엔진 코드의 주석 설명 수정
-              </a>
-            </li>
-            <li>
               <a target="_blank" href="https://js-history.vercel.app/"
                 >JavaScript의 역사에 관한 약 120쪽 분량의 논문 번역, 배포</a
               >
             </li>
           </ul>
         </section>
-        <section>
-          <h3>
-            신촌지역 대학교 프로그래밍 동아리 연합&nbsp;<a
-              target="_blank"
-              href="https://icpc-sinchon.io"
-              >[홈페이지]</a
-            >
-          </h3>
-          <p class="text-muted">2022 - 2023</p>
+
+        <section class="item">
+          <h4 class="item-title">
+            신촌지역 대학생 프로그래밍 동아리 연합
+          </h4>
           <ul>
             <li>
-              100명 규모의 신촌지역 대학교 프로그래밍 동아리 연합 알고리즘 캠프
-              초급반 강사&nbsp;<a
+              2021년 100명 규모의 알고리즘 캠프 초급반 강사&nbsp;<a
                 target="_blank"
                 href="https://github.com/witch-factory/2022-winter-sinchon-lecture"
-                >[강의자료]</a
+                >당시 강의자료</a
               >
             </li>
             <li>
-              신촌지역 대학교 프로그래밍 동아리 연합 알고리즘 캠프 콘테스트 중급
+              알고리즘 캠프 콘테스트 중급
               출제진&nbsp;<a
                 target="_blank"
                 href="https://www.acmicpc.net/contest/view/948"
-                >[대회 페이지]</a
+                >대회 페이지</a
               >
             </li>
           </ul>
         </section>
-        <section>
-          <h3>
+
+        <section class="item">
+          <h4 class="item-title">
             서강대학교 컴퓨터공학과 알고리즘 문제해결 학회 Sogang ICPC
             Team&nbsp;<a target="_blank" href="https://icpc.team/"
-              >[홈페이지]</a
+              >홈페이지</a
             >
-          </h3>
-          <p class="text-muted">2020 - 2022</p>
+          </h4>
           <ul>
-            <li>2022 학회 임원진 활동</li>
             <li>
               서강대학교 프로그래밍 경진대회(SPC) 운영진&nbsp;<a
                 target="_blank"
                 href="https://www.acmicpc.net/contest/view/897"
-                >[대회 페이지]</a
+                >대회 페이지</a
               >
             </li>
             <li>
               서강대학교 청정수컵 출제진/운영진&nbsp;<a
                 target="_blank"
                 href="https://www.acmicpc.net/contest/view/796"
-                >[대회 페이지]</a
+                >대회 페이지</a
               >
             </li>
-            <li>학회 내 알고리즘 문제 풀이 스터디를 2년간 운영</li>
+            <li>2022년 임원진 활동, 2년간의 문제풀이 스터디 운영 등의 기여</li>
           </ul>
         </section>
       </section>
-      <section>
-        <h2>수상</h2>
-        <hr />
-        <section>
-          <h3>신촌지역 대학교 프로그래밍 동아리 연합</h3>
-          <ul>
-            <li>
-              2022 겨울 신촌지역 대학교 프로그래밍 동아리 연합 대회
-              5등(팀명:&nbsp;ECM)
-            </li>
-            <li>
-              2021 여름 신촌지역 대학교 프로그래밍 동아리 연합 대회
-              9등(팀명:&nbsp;ECM)
-            </li>
-            <li>
-              2021 여름 신촌지역 대학교 프로그래밍 동아리 연합 알고리즘 캠프
-              콘테스트 초급 3등
-            </li>
-          </ul>
-        </section>
-        <section>
-          <h3>
-            전국 대학생 프로그래밍 대회 동아리 연합&nbsp;<a
-              target="_blank"
-              href="https://ucpc.me/"
-              >[홈페이지]</a
-            >
-          </h3>
-          <ul>
-            <li>2022년 여름 대회 본선 진출(팀명:&nbsp;축하합니다 김준호)</li>
-          </ul>
-        </section>
-      </section>
-      <section>
-        <h2>교육</h2>
-        <hr />
-        <section>
-          <h3>서강대학교 기계공학과/컴퓨터공학과</h3>
-          <p class="text-muted">2015.03 - 2023.02</p>
+
+      <section class="group">
+        <h2 class="group-title">교육</h2>
+        <section class="item">
+          <header class="section-header">
+            <h4 class="item-title">
+              서강대학교 기계공학과/컴퓨터공학과 졸업
+            </h4>
+            <p class="section-period">2015.03 - 2023.02</p>
+          </header>
           <ul>
             <li>컴퓨터공학 전공학점 4.03/4.3</li>
           </ul>
         </section>
-      </section>
-      <section>
-        <h2>외국어</h2>
-        <hr />
-        <ul>
-          <li>OPIc(영어) IM2(2023.03.10)</li>
-        </ul>
+        <section class="item">
+          <header class="section-header">
+            <h4 class="item-title">
+              소프트웨어 마에스트로 13기
+            </h4>
+            <p class="section-period">2022.07 - 2022.11</p>
+          </header>
+          <ul>
+            <li>사회인 밴드 활동을 돕는 플랫폼 "밴드웨건" 개발</li>
+            <li>React, zustand, Tailwind CSS 등 사용</li>
+          </ul>
+        </section>
       </section>
     </main>
   </body>
