@@ -12,7 +12,7 @@ class ResumeGroup extends HTMLElement {
     wrapper.setAttribute("class", "group");
 
     const heading = document.createElement("h2");
-    heading.setAttribute("class", "group-title");
+    heading.setAttribute("class", "title-accent");
     heading.textContent = title;
 
     const slot = document.createElement("slot");
@@ -49,10 +49,10 @@ class ResumeSection extends HTMLElement {
     header.setAttribute("class", "header");
 
     const headerMain = document.createElement("div");
-    headerMain.setAttribute("class", "section-header-main");
+    headerMain.setAttribute("class", "header-main");
 
     const headerIntro = document.createElement("div");
-    headerIntro.setAttribute("class", "section-header-intro");
+    headerIntro.setAttribute("class", "header-intro");
 
     const heading = document.createElement("h3");
     heading.setAttribute("class", "title-md");
@@ -64,24 +64,23 @@ class ResumeSection extends HTMLElement {
     headerIntro.append(heading, linksSlot);
 
     const desc = document.createElement("p");
-    desc.setAttribute("class", "section-description");
     desc.textContent = description;
 
     const techElem = document.createElement("p");
-    techElem.setAttribute("class", "section-tech");
+    techElem.setAttribute("class", "tech");
     techElem.textContent = tech;
 
     headerMain.append(headerIntro, desc, techElem);
 
     const headerSub = document.createElement("div");
-    headerSub.setAttribute("class", "section-header-sub");
+    headerSub.setAttribute("class", "header-sub");
 
     const periodElem = document.createElement("p");
-    periodElem.setAttribute("class", "section-period");
+    periodElem.setAttribute("class", "period");
     periodElem.textContent = period;
 
     const roleElem = document.createElement("p");
-    roleElem.setAttribute("class", "section-role");
+    roleElem.setAttribute("class", "role");
     roleElem.textContent = role;
 
     headerSub.append(periodElem, roleElem);
