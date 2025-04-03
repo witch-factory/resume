@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width" />
     <title>김성현의 이력서</title>
     <link rel="stylesheet" href="style.css" />
+    <script type="module" src="./components.js"></script>
   </head>
   <body>
-    <header class="owner-info">
-      <div class="owner-profile">
-        <h1 class="owner-profile-name">김성현</h1>
+    <header class="header">
+      <div>
+        <h1 class="title-lg">김성현</h1>
         <p>제가 보았던 가장 멋진 사람들을 따라 개발자가 되었습니다.</p>
       </div>
-      <ul class="owner-contact">
+      <ul class="contact">
         <li>
           블로그:&nbsp;<a target="_blank" href="https://witch.work"
             >https://witch.work</a
@@ -35,38 +36,27 @@
       </ul>
     </header>
     <main>
-      <section class="group">
-        <h2 class="group-title">소개</h2>
+      <resume-group title="소개">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          이전에 있었던 코드들을 이해하고 언젠가 레거시가 될 현재의 선택들을
+          기록하며 이를 바탕으로 앞으로 더 나은 선택을 하는 개발자입니다.
+          개발하면서 했던 선택들과 공부에 관해 약 200개의 글을 작성해 왔으며
+          이를 코드에 녹이기 위해 노력합니다. 또한 팀의 생산성을 높일 수 있는
+          도구를 구현하고 유지보수를 위한 선택을 하는 등 팀을 위해 기여합니다.
         </p>
-      </section>
-      <section class="group">
-        <h2 class="group-title">경력</h2>
-        <section class="section">
-          <header class="section-header">
-            <div class="section-header-main">
-              <h3 class="section-title">Tmax FinAI</h3>
-              <p class="section-description">
-                보험 업무 전반을 위해 사용되는 배달서비스공제조합 페이지
-              </p>
-              <p class="section-tech">
-                React, TypeScript, styled-components, React Hook Form, React
-                Query
-              </p>
-            </div>
-            <div class="section-header-sub">
-              <p class="section-period">2023.08 - 2024.09</p>
-              <p class="section-role">프론트엔드 연구원</p>
-            </div>
-          </header>
-          <section class="item">
-            <h4 class="item-title">
-              팀의 생산성을 위하여 개발 환경을 개선할 수 있는 유틸리티 제작
-            </h4>
+      </resume-group>
+
+      <resume-group title="경력">
+        <resume-section
+          title="Tmax FinAI"
+          description="보험 업무 전반을 위해 사용되는 배달서비스공제조합 페이지"
+          tech="React, TypeScript, styled-components, React Hook Form, React Query"
+          period="2023.08 - 2024.09"
+          role="프론트엔드 연구원"
+        >
+          <resume-item
+            title="팀의 생산성을 위하여 개발 환경을 개선할 수 있는 유틸리티 제작"
+          >
             <ul>
               <li>
                 Google Sheets에 정리된 보험 도메인 용어 데이터를 기반으로 JSON을
@@ -81,11 +71,8 @@
                 공유될 수 있는 커스텀 훅을 React Query를 이용해 구현
               </li>
             </ul>
-          </section>
-          <section class="item">
-            <h4 class="item-title">
-              클라이언트 요구사항을 충족하기 위한 페이지 구현
-            </h4>
+          </resume-item>
+          <resume-item title="클라이언트 요구사항을 충족하기 위한 페이지 구현">
             <ul>
               <li>
                 보험처리를 위한 사고 정보 열람 페이지/팝업, 진료비 조회, 현장
@@ -104,113 +91,33 @@
                 분석하여 time picker 구현
               </li>
             </ul>
-          </section>
-        </section>
-      </section>
+          </resume-item>
+        </resume-section>
+      </resume-group>
 
-      <section class="group">
-        <h2 class="group-title">프로젝트</h2>
-        <section class="section">
-          <header class="section-header">
-            <div class="section-header-main">
-              <div class="section-header-intro">
-                <h3 class="section-title">
-                  신촌지역 대학생 프로그래밍 동아리 연합
-                </h3>
-                <a
-                  target="_blank"
-                  href="https://icpc-sinchon.io"
-                  class="section-title-link"
-                  >홈페이지</a
-                >
-              </div>
-              <p class="section-description">
-                알고리즘 캠프 운영에 사용되는 홈페이지와 관리자 페이지 개선 작업
-              </p>
-              <p class="section-tech">
-                Next.js, TypeScript, styled-components, Radix UI, Express,
-                Prisma, Google Cloud Platform
-              </p>
-            </div>
-            <div class="section-header-sub">
-              <p class="section-period">2024.05 - 2024.12</p>
-              <p class="section-role">프로그램 관리팀장</p>
-            </div>
-          </header>
-
-          <section class="item">
-            <h4 class="item-title">프론트엔드 개발</h4>
-            <ul>
-              <li>
-                Next.js 10 + JavaScript 코드를 Next.js 12 + TypeScript로
-                마이그레이션
-              </li>
-              <li>
-                기존 코드의 작성자와 코드의 의도를 논의하고 현재 필요한 기능과
-                확장 가능성을 고려하여 코드 리팩토링
-              </li>
-              <li>
-                광범위한 요소를 선택하는 DOM API 기반으로 작성되어 변경을 어렵게
-                하던 코드를 React hook 기반으로 재작성
-              </li>
-              <li>
-                공통 컴포넌트에서 사용되지 않던 기능을 제거하고 Radix UI
-                라이브러리를 도입해 코드를 간결하게 개선
-              </li>
-            </ul>
-          </section>
-          <section class="item">
-            <h4 class="item-title">백엔드 개발</h4>
-            <ul>
-              <li>
-                학생 정보 관리, 강의 출석 관리, 과제 제출 확인, 강의료 계산 등의
-                기능을 수행하는 API 서버 작성
-              </li>
-              <li>
-                Go와 raw query 기반으로 되어 있었던 기존 코드를 Node.JS,
-                TypeScript, Prisma ORM 기반으로 재작성
-              </li>
-              <li>
-                디스코드 비대면 강의의 출석을 위해 discord.js 라이브러리를
-                이용해 출석 봇을 만들고 서버와 함께 배포
-              </li>
-            </ul>
-          </section>
-        </section>
-
-        <hr class="separator" />
-
-        <section class="section">
-          <header class="section-header">
-            <div class="section-header-main">
-              <div class="section-header-intro">
-                <h3 class="section-title">개인 블로그 제작</h3>
-                <a
-                  target="_blank"
-                  href="https://witch.work/"
-                  class="section-title-link"
-                  >배포 링크</a
-                >
-                <a
-                  target="_blank"
-                  href="https://github.com/witch-factory/witch-next-blog"
-                  class="section-title-link"
-                  >GitHub</a
-                >
-              </div>
-              <p class="section-description">
-                Next.js를 이용하며 다국어를 지원하는 개인 블로그
-              </p>
-              <p class="section-tech">Next.js, TypeScript, Vanilla-extract</p>
-            </div>
-            <div class="section-header-sub">
-              <p class="section-period">2023.05 - 현재</p>
-              <p class="section-role">블로그 운영자</p>
-            </div>
-          </header>
-
-          <section class="item">
-            <h4 class="item-title">블로그 구축</h4>
+      <resume-group title="프로젝트">
+        <resume-section
+          title="개인 블로그 제작"
+          description="Next.js를 이용하며 다국어를 지원하는 개인 블로그"
+          tech="Next.js, TypeScript, Vanilla-extract"
+          period="2023.05 - 현재"
+          role="블로그 운영자"
+        >
+          <a
+            slot="links"
+            target="_blank"
+            href="https://witch.work/"
+            class="section-title-link"
+            >배포 링크</a
+          >
+          <a
+            slot="links"
+            target="_blank"
+            href="https://github.com/witch-factory/witch-next-blog"
+            class="section-title-link"
+            >GitHub</a
+          >
+          <resume-item title="블로그 구축">
             <ul>
               <li>
                 Next.js 12를 이용하여 블로그를 구현하고 Next.js 13 서버 컴포넌트
@@ -233,10 +140,9 @@
                 피드 등을 도입
               </li>
             </ul>
-          </section>
+          </resume-item>
 
-          <section class="item">
-            <h4 class="item-title">사용자 경험 개선을 위한 노력</h4>
+          <resume-item title="사용자 경험 개선">
             <ul>
               <li>
                 블로그의 글을 AI를 이용해 번역하고 다국어 지원 구현
@@ -260,44 +166,90 @@
               </li>
               <li>디바운싱 최적화가 적용된 글 검색 페이지 구현</li>
             </ul>
-          </section>
-        </section>
-      </section>
+          </resume-item>
+        </resume-section>
+        <hr class="separator" />
 
-      <section class="group">
-        <h2 class="group-title">발표</h2>
-        <section class="section">
-          <header class="section-header">
-            <div class="section-header-main">
-              <div class="section-header-intro">
-                <h3 class="section-title">BBConf</h3>
-                <a
-                  target="_blank"
-                  href="https://bbconf.kr/"
-                  class="section-title-link"
-                  >홈페이지</a
-                >
-                <a
-                  target="_blank"
-                  href="https://bbconf.kr/archive"
-                  class="section-title-link"
-                  >발표자료 아카이브</a
-                >
-              </div>
-              <p class="section-description">
-                '각자 알고 있는 유용한 지식을 나누자'는 취지의 오픈 컨퍼런스
-              </p>
-            </div>
-            <div class="section-header-sub">
-              <p class="section-period">2021 - 현재</p>
-              <p class="section-role">발표자, 참여자</p>
-            </div>
-          </header>
+        <resume-section
+          title="신촌지역 대학생 프로그래밍 동아리 연합"
+          description="알고리즘 캠프 운영에 사용되는 홈페이지와 관리자 페이지 개선 작업"
+          tech="Next.js, TypeScript, styled-components, Radix UI, Express,
+        Prisma, Google Cloud Platform"
+          period="2024.05 - 2024.12"
+          role="프로그램 관리팀장"
+        >
+          <a
+            slot="links"
+            target="_blank"
+            href="https://icpc-sinchon.io"
+            class="section-title-link"
+            >홈페이지</a
+          >
+          <resume-item title="프론트엔드 개발">
+            <ul>
+              <li>
+                Next.js 10 + JavaScript 코드를 Next.js 12 + TypeScript로
+                마이그레이션
+              </li>
+              <li>
+                기존 코드의 작성자와 코드의 의도를 논의하고 현재 필요한 기능과
+                확장 가능성을 고려하여 코드 리팩토링
+              </li>
+              <li>
+                광범위한 요소를 선택하는 DOM API 기반으로 작성되어 변경을 어렵게
+                하던 코드를 React hook 기반으로 재작성
+              </li>
+              <li>
+                공통 컴포넌트에서 사용되지 않던 기능을 제거하고 Radix UI
+                라이브러리를 도입해 코드를 간결하게 개선
+              </li>
+            </ul>
+          </resume-item>
+          <resume-item title="백엔드 개발">
+            <ul>
+              <li>
+                학생 정보 관리, 강의 출석 관리, 과제 제출 확인, 강의료 계산 등의
+                기능을 수행하는 API 서버 작성
+              </li>
+              <li>
+                Go와 raw query 기반으로 되어 있었던 기존 코드를 Node.JS,
+                TypeScript, Prisma ORM 기반으로 재작성
+              </li>
+              <li>
+                디스코드 비대면 강의의 출석을 위해 discord.js 라이브러리를
+                이용해 출석 봇을 만들고 서버와 함께 배포
+              </li>
+            </ul>
+          </resume-item>
+        </resume-section>
+      </resume-group>
+
+      <resume-group title="발표">
+        <resume-section
+          title="BBConf"
+          description="각자 알고 있는 유용한 지식을 나누자는 취지의 오픈 컨퍼런스"
+          role="발표자, 참여자"
+          period="2021 - 현재"
+        >
+          <a
+            slot="links"
+            target="_blank"
+            href="https://bbconf.kr/"
+            class="section-title-link"
+            >홈페이지</a
+          >
+          <a
+            slot="links"
+            target="_blank"
+            href="https://bbconf.kr/archive"
+            class="section-title-link"
+            >발표자료 아카이브</a
+          >
           <ul>
             <li>'마녀'라는 닉네임으로 컨퍼런스 발표</li>
             <li>
               <a
-                _blank
+                target="_blank"
                 href="https://bbconfwebdav.vulcan.site/bbconf/2024-winter/%ea%b9%80%ec%84%b1%ed%98%84_%eb%b8%8c%eb%9d%bc%ec%9a%b0%ec%a0%80%ec%97%90%20google%ec%9d%84%20%ec%b9%98%eb%a9%b4%20%ec%83%9d%ea%b8%b0%eb%8a%94%20%ec%9d%bc%ea%b9%8c%ec%a7%80%20%ec%83%9d%ea%b8%b4%20%ec%9d%bc.pdf"
                 >브라우저에서 google.com을 치면 생기는 일까지 생겼던 일</a
               >
@@ -324,29 +276,20 @@
               >
             </li>
           </ul>
-        </section>
-        
-        <section class="section">
-          <header class="section-header">
-            <div class="section-header-main">
-              <div class="section-header-intro">
-                <h3 class="section-title">GDG on Campus Hongik Univ.</h3>
-                <a
-                  target="_blank"
-                  href="https://www.gdschongik.com/"
-                  class="section-title-link"
-                  >홈페이지</a
-                >
-              </div>
-              <p class="section-description">
-                홍익대학교 최대 규모의 IT 커뮤니티
-              </p>
-            </div>
-            <div class="section-header-sub">
-              <p class="section-period">2023 - 2024</p>
-              <p class="section-role">발표자</p>
-            </div>
-          </header>
+        </resume-section>
+        <resume-section
+          title="GDG on Campus Hongik Univ."
+          description="홍익대학교 최대 규모의 IT 커뮤니티"
+          role="발표자"
+          period="2023 - 2024"
+        >
+          <a
+            slot="links"
+            target="_blank"
+            href="https://www.gdschongik.com/"
+            class="section-title-link"
+            >홈페이지</a
+          >
           <ul>
             <li>
               <a
@@ -363,14 +306,13 @@
               >
             </li>
           </ul>
-      </section>
-      
-      <section class="group">
-        <h2 class="group-title">활동</h2>
-        <section class="item">
-          <h4 class="item-title">
-            글또 (글쓰는 개발자 모임) 9기, 10기 - 기술 블로그 운영 및 글 작성
-          </h4>
+        </resume-section>
+      </resume-group>
+
+      <resume-group title="활동">
+        <resume-item
+          title="글또 (글쓰는 개발자 모임) 9기, 10기 - 기술 블로그 운영 및 글 작성"
+        >
           <ul>
             <li>
               <a
@@ -382,12 +324,18 @@
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://witch.work/ko/posts/javascript-closure-deep-dive-history">
+              <a
+                target="_blank"
+                href="https://witch.work/ko/posts/javascript-closure-deep-dive-history"
+              >
                 클로저, 수학자들의 꿈에서 JavaScript의 스타가 되기까지
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://witch.work/ko/posts/typescript-covariance-theory">
+              <a
+                target="_blank"
+                href="https://witch.work/ko/posts/typescript-covariance-theory"
+              >
                 TypeScript의 가변성(Variance)이란 무엇인가
               </a>
             </li>
@@ -399,12 +347,9 @@
               >
             </li>
           </ul>
-        </section>
+        </resume-item>
 
-        <section class="item">
-          <h4 class="item-title">
-            오픈소스 활동
-          </h4>
+        <resume-item title="오픈소스 활동">
           <ul>
             <li>
               <a
@@ -421,12 +366,9 @@
               >
             </li>
           </ul>
-        </section>
+        </resume-item>
 
-        <section class="item">
-          <h4 class="item-title">
-            신촌지역 대학생 프로그래밍 동아리 연합
-          </h4>
+        <resume-item title="신촌지역 대학생 프로그래밍 동아리 연합">
           <ul>
             <li>
               2021년 100명 규모의 알고리즘 캠프 초급반 강사&nbsp;<a
@@ -436,23 +378,19 @@
               >
             </li>
             <li>
-              알고리즘 캠프 콘테스트 중급
-              출제진&nbsp;<a
+              알고리즘 캠프 콘테스트 중급 출제진&nbsp;<a
                 target="_blank"
                 href="https://www.acmicpc.net/contest/view/948"
                 >대회 페이지</a
               >
             </li>
           </ul>
-        </section>
+        </resume-item>
 
-        <section class="item">
-          <h4 class="item-title">
-            서강대학교 컴퓨터공학과 알고리즘 문제해결 학회 Sogang ICPC
-            Team&nbsp;<a target="_blank" href="https://icpc.team/"
-              >홈페이지</a
-            >
-          </h4>
+        <resume-item
+          title="서강대학교 컴퓨터공학과 알고리즘 문제해결 학회 Sogang ICPC
+        Team"
+        >
           <ul>
             <li>
               서강대학교 프로그래밍 경진대회(SPC) 운영진&nbsp;<a
@@ -470,16 +408,13 @@
             </li>
             <li>2022년 임원진 활동, 2년간의 문제풀이 스터디 운영 등의 기여</li>
           </ul>
-        </section>
-      </section>
+        </resume-item>
+      </resume-group>
 
-      <section class="group">
-        <h2 class="group-title">교육</h2>
+      <resume-group title="교육">
         <section class="item">
-          <header class="section-header">
-            <h4 class="item-title">
-              서강대학교 기계공학과/컴퓨터공학과 졸업
-            </h4>
+          <header class="header">
+            <h4 class="item-title">서강대학교 기계공학과/컴퓨터공학과 졸업</h4>
             <p class="section-period">2015.03 - 2023.02</p>
           </header>
           <ul>
@@ -487,10 +422,8 @@
           </ul>
         </section>
         <section class="item">
-          <header class="section-header">
-            <h4 class="item-title">
-              소프트웨어 마에스트로 13기
-            </h4>
+          <header class="header">
+            <h4 class="item-title">소프트웨어 마에스트로 13기</h4>
             <p class="section-period">2022.07 - 2022.11</p>
           </header>
           <ul>
@@ -498,7 +431,7 @@
             <li>React, zustand, Tailwind CSS 등 사용</li>
           </ul>
         </section>
-      </section>
+      </resume-group>
     </main>
   </body>
 </html>

@@ -31,19 +31,13 @@ main {
   gap: 2rem;
 }
 
-.owner-info {
+.header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.owner-profile {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.owner-profile-name {
+.title-lg {
   font-weight: bold;
   font-size: 2.5rem;
   line-height: 3rem;
@@ -51,10 +45,20 @@ main {
   margin-bottom: 0.5rem;
 }
 
-.owner-contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.title-md {
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.title-sm {
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.contact {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -149,12 +153,6 @@ main {
   font-weight: normal;
 }
 
-.item-description {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
 .separator {
   border-top: 1px solid var(--color-accent);
   margin: 1rem 0;
@@ -182,7 +180,7 @@ ul li + li {
 }
 
 @media (max-width: 768px) {
-  .owner-info {
+  .header {
     flex-direction: column;
     gap: 1rem;
   }
