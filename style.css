@@ -163,11 +163,27 @@ ul li + li {
 }
 
 @media print {
+  html {
+    /* 1rem 크기 조절 */
+    font-size: 12px;
+  }
+
   body {
-    max-width: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+
+  main {
+    gap: 1.5rem;
   }
 
   ul li + li {
-    margin-top: 0.1rem;
+    margin-top: 0;
+  }
+
+  .separator {
+    margin: 0.5rem 0;
   }
 }
