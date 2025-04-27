@@ -62,15 +62,20 @@ class ResumeSection extends HTMLElement {
     linksSlot.name = "links";
 
     headerIntro.append(heading, linksSlot);
+    headerMain.append(headerIntro);
 
-    const desc = document.createElement("p");
-    desc.textContent = description;
+    if (description) {
+      const desc = document.createElement("p");
+      desc.textContent = description;
+      headerMain.append(desc);
+    }
 
-    const techElem = document.createElement("p");
-    techElem.setAttribute("class", "tech");
-    techElem.textContent = tech;
-
-    headerMain.append(headerIntro, desc, techElem);
+    if (tech) {
+      const techElem = document.createElement("p");
+      techElem.setAttribute("class", "tech");
+      techElem.textContent = tech;
+      headerMain.append(techElem);
+    }
 
     const headerSub = document.createElement("div");
     headerSub.setAttribute("class", "header-sub");
@@ -78,12 +83,15 @@ class ResumeSection extends HTMLElement {
     const periodElem = document.createElement("p");
     periodElem.setAttribute("class", "period");
     periodElem.textContent = period;
+    headerSub.append(periodElem);
 
-    const roleElem = document.createElement("p");
-    roleElem.setAttribute("class", "role");
-    roleElem.textContent = role;
+    if (role) {
+      const roleElem = document.createElement("p");
+      roleElem.setAttribute("class", "role");
+      roleElem.textContent = role;
+      headerSub.append(roleElem);
+    }
 
-    headerSub.append(periodElem, roleElem);
     header.append(headerMain, headerSub);
 
     const defaultSlot = document.createElement("slot");
