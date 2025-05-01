@@ -11,7 +11,7 @@
     <header class="header">
       <div>
         <h1 class="title-lg">김성현</h1>
-        <p>기술을 이해하고, 글로 풀어내며, 팀을 돕습니다.</p>
+        <p>깊이를 가리지 않고 문제를 해결하는 프론트엔드 개발자입니다.</p>
       </div>
       <ul class="contact">
         <li>
@@ -38,11 +38,12 @@
     <main>
       <resume-group title="소개">
         <p>
-          레거시의 맥락을 이해하고 이를 기반으로 더 나은 선택을 하고자 하는
-          개발자입니다. 기술적 선택과 학습에 관해 약 200개의 글을 작성해 왔으며
-          그 결과물을 실무에도 녹이기 위해 노력합니다. 자동화 도구나 공통
-          유틸리티를 주도적으로 개발하여 반복 작업을 줄이며 팀이 더 중요한 일에
-          집중할 수 있는 환경을 만드는 데 기여합니다.
+          내부 동작 분석을 통한 최적화와 같은 깊이있는 작업부터 간단한 백엔드
+          작성, LLM을 활용한 번역 기능, 팀을 위한 자동화 스크립트 작성 등 문제를
+          정의하고 효율적으로 해결하는 작업까지 해왔습니다. 기술적 선택과 학습에
+          관해 약 200편의 글을 작성해 왔으며 이 지식을 실무에 적용하기 위해
+          노력합니다. 문제의 깊이에 따라 적절한 방식으로 접근하며 다양한
+          수준에서 기여할 수 있는 개발자를 지향합니다.
         </p>
       </resume-group>
 
@@ -50,34 +51,46 @@
         <resume-section
           title="Tmax FinAI"
           description="보험 업무 전반을 위해 사용되는 배달서비스공제조합 페이지"
-          tech="React, TypeScript, styled-components, React Hook Form, React Query"
+          tech="React, TypeScript, styled-components, React Hook Form, TanStack Query"
           period="2023.08 - 2024.09"
           role="프론트엔드 연구원"
         >
           <resume-item
-            title="팀의 생산성을 위하여 개발 환경을 개선할 수 있는 유틸리티 제작"
+            title="팀의 생산성을 위하여 개발 환경을 개선하는 유틸리티 제작"
           >
             <ul>
               <li>
                 API 명세를 표 형식으로 변환하는 도구를 만들고 팀에 공유하여 문서
-                작성 시간 단축
+                작성 시간 50% 이상 단축
               </li>
               <li>
                 보험 용어 목록과 입력 데이터를 비교해 검토하는 도구를 만들고
-                공유하여 수작업 검토 프로세스 자동화
+                공유하여 수작업 검토 프로세스 80% 이상 자동화
               </li>
               <li>
-                웹소켓 기반 사내 API 통신을 위한 React Query 커스텀 훅을 팀 내
-                공용 유틸리티로 구현
+                웹소켓 기반 사내 API 통신을 위해 TanStack Query로 제작한 커스텀
+                훅을 팀 내 공용 유틸리티로 공유
               </li>
             </ul>
           </resume-item>
-          <resume-item title="클라이언트 요구사항을 충족하기 위한 페이지 구현">
+          <resume-item title="보험 업무 전반에 필요한 페이지 구현">
             <ul>
               <li>
-                보험 가입/처리를 위한 반응형 페이지와 공통 UI 컴포넌트 구현
+                보험 가입 프로세스에서 사용자 조건에 따라 흐름이 분기되는 구조와
+                예외 상황 대응, 상태 관리 구현
               </li>
-              <li>클라이언트 요구사항 충족을 위해 커스텀 time picker 구현</li>
+              <li>
+                관리자 페이지에서 사용하는 사고 조회 팝업 전반을 맡아서 구현하고
+                다수의 페이지와 연동
+              </li>
+              <li>
+                디자인 요구사항에 맞춰 24시간제 입력이 가능하며 키보드 조작과
+                접근성을 고려한 TimePicker 제작
+              </li>
+              <li>
+                Table, Card 등 공통 UI 컴포넌트를 보완하여 재사용성을 높이고,
+                모든 페이지에서 타입과 함께 활용할 수 있도록 개선
+              </li>
             </ul>
           </resume-item>
         </resume-section>
@@ -125,7 +138,7 @@
                 <a
                   target="_blank"
                   href="https://witch.work/ko/posts/blog-eslint-configuration"
-                  >정리 글 링크</a
+                  >🔗 정리 글 링크</a
                 >
               </li>
             </ul>
@@ -139,19 +152,51 @@
                 <a
                   target="_blank"
                   href="https://witch.work/ko/posts/blog-auto-translation"
-                  >정리 글 링크</a
+                  >🔗 정리 글 링크</a
                 >
               </li>
               <li>
-                사용자 브라우저의 언어에 맞게 자동으로 언어를 변경하고 SEO 설정
+                사용자 브라우저의 언어에 맞게 자동으로 언어를 변경하도록 하고
+                SEO 설정
                 <a
                   target="_blank"
                   href="https://witch.work/ko/posts/blog-content-i18n"
-                  >정리 글 링크</a
+                  >🔗 정리 글 링크</a
                 >
               </li>
               <li>
                 페이지 최적화로 Lighthouse 기준 성능 점수 75점 → 95점으로 개선
+              </li>
+            </ul>
+          </resume-item>
+          <resume-item title="운영 중 문제 해결">
+            <ul>
+              <li>
+                빌드 실패 원인이 번들 사이즈임을 파악하고 설계 변경, 서드파티
+                코드 작성을 통해 번들 사이즈 70% 감축
+                <a
+                  target="_blank"
+                  href="https://witch.work/ko/posts/blog-bundle-reduction"
+                  >🔗 정리 글 링크</a
+                >
+              </li>
+              <li>
+                Next.js의 ESLint 플러그인이 동작하지 않는 것이 pnpm의 동작 방식
+                문제임을 알아내고 근본적인 문제 해결
+                <a
+                  target="_blank"
+                  href="https://witch.work/ko/posts/blog-eslint-pnpm-bugfix"
+                  >🔗 정리 글 링크</a
+                >
+              </li>
+              <li>
+                블로그에 새로운 요소들을 추가하며 성능이 떨어진 문제 원인이
+                불필요한 데이터의 로딩임을 확인하고 해결
+                <a
+                  target="_blank"
+                  href="https://witch.work/ko/posts/blog-fix20230808"
+                  >🔗 정리 글 링크</a
+                >
               </li>
             </ul>
           </resume-item>
@@ -180,16 +225,12 @@
                 마이그레이션
               </li>
               <li>
-                기존 코드의 작성자와 논의하고 현재 필요한 기능과 확장 가능성을
-                고려하여 코드 리팩토링
+                레거시의 작성자와 논의하여 코드가 작성된 맥락과 의도를 반영한
+                핵심 기능 중심으로 코드 리팩토링
               </li>
               <li>
-                광범위한 요소를 선택하는 DOM API로 작성되어 유지보수가 까다롭던
-                코드를 React 기반으로 재작성
-              </li>
-              <li>
-                공통 컴포넌트를 Radix UI 라이브러리로 대체하고 불필요한 기능
-                제거
+                광범위한 요소를 선택하는 DOM API로 작성되어 유지보수가 어렵던
+                컴포넌트들을 React와 Radix UI 기반으로 마이그레이션
               </li>
             </ul>
           </resume-item>
@@ -228,47 +269,52 @@
           >
           <ul>
             <li>
+              글또 프론트엔드 반상회 발표 - '나의 방식으로 네트워킹 시작하기'
               <a
                 target="_blank"
                 href="https://github.com/witch-factory/presentations/blob/master/%EA%B8%80%EB%98%90_%EB%82%98%EC%9D%98_%EB%B0%A9%EC%8B%9D%EC%9C%BC%EB%A1%9C_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%82%B9_%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.pdf"
               >
-                프론트엔드 반상회 발표 - '나의 방식으로 네트워킹 시작하기'
+                🔗 발표 자료 링크
               </a>
             </li>
             <li>
+              JavaScript의 특수한 주석 형식에 관한 글, 네이버 FE News 2024년 2월
+              큐레이션 선정
               <a
                 target="_blank"
                 href="https://github.com/naver/fe-news/blob/master/issues/2024-02.md#js%EC%9D%98-%EC%A3%BC%EC%84%9D%EC%9D%80-%EA%B3%BC--%EB%BF%90%EB%A7%8C%EC%9D%B4-%EC%95%84%EB%8B%88%EB%8B%A4"
               >
-                JavaScript의 특수한 주석 형식에 관한 글, 네이버 FE News 2024년
-                2월 큐레이션 선정
+                🔗 글 링크
               </a>
             </li>
             <li>
+              클로저의 역사에 딥다이브하여 튜링 기계부터 JavaScript까지 되짚어
+              올라오는 글, 글또 10기 3회차 큐레이션 선정
               <a
                 target="_blank"
                 href="https://witch.work/ko/posts/javascript-closure-deep-dive-history"
               >
-                클로저의 역사에 딥다이브하여 튜링 기계부터 JavaScript까지 되짚어
-                올라오는 글, 글또 10기 3회차 큐레이션 선정
+                🔗 글 링크
               </a>
             </li>
             <li>
+              컨텐츠 관리 라이브러리 velite를 소개하는 글, 글또 9기 10회차
+              큐레이션 선정
               <a
                 target="_blank"
                 href="https://witch.work/ko/posts/velite-library-introduction"
               >
-                컨텐츠 관리 라이브러리 velite를 소개하는 글, 글또 9기 10회차
-                큐레이션 선정
+                🔗 글 링크
               </a>
             </li>
             <li>
+              타입 시스템의 가변성을 TypeScript로 설명한 글, 글또 9기 1회차
+              큐레이션 선정
               <a
                 target="_blank"
                 href="https://witch.work/ko/posts/typescript-covariance-theory"
               >
-                타입 시스템의 가변성을 TypeScript로 설명한 글, 글또 9기 1회차
-                큐레이션 선정
+                🔗 글 링크
               </a>
             </li>
           </ul>
@@ -288,26 +334,28 @@
           >
           <ul>
             <li>
+              컴퓨터, 네트워크, 웹의 간략한 역사를 소개하고 오해를 바로잡는 발표
               <a
                 target="_blank"
                 href="https://bbconfwebdav.vulcan.site/bbconf/2024-winter/%ea%b9%80%ec%84%b1%ed%98%84_%eb%b8%8c%eb%9d%bc%ec%9a%b0%ec%a0%80%ec%97%90%20google%ec%9d%84%20%ec%b9%98%eb%a9%b4%20%ec%83%9d%ea%b8%b0%eb%8a%94%20%ec%9d%bc%ea%b9%8c%ec%a7%80%20%ec%83%9d%ea%b8%b4%20%ec%9d%bc.pdf"
-                >컴퓨터, 네트워크, 웹의 간략한 역사를 소개하고 흔한 오해를
-                바로잡는 발표</a
+                >🔗 발표 자료 링크</a
               >
             </li>
             <li>
+              블로그를 오랫동안 운영하는 동력을 얻고 좋은 글을 쓰기 위한
+              노하우에 대한 발표
               <a
                 target="_blank"
                 href="https://bbconfwebdav.vulcan.site/bbconf/2024-summer/%eb%a7%88%eb%85%80_%eb%b8%94%eb%a1%9c%ea%b7%b8%eb%a1%9c_%ec%a7%84%ec%a7%9c_%ea%b0%9c%eb%b0%9c%ec%9e%90%ec%b2%98%eb%9f%bc_%eb%b3%b4%ec%9d%b4%eb%8a%94_%eb%b2%95.pdf"
-                >블로그를 오랫동안 운영하는 동력을 얻고 좋은 글을 쓰기 위한
-                노하우에 대한 발표</a
+                >🔗 발표 자료 링크</a
               >
             </li>
             <li>
+              JavaScript의 초기 역사와 언어적인 선택들에 관한 발표
               <a
                 target="_blank"
                 href="https://bbconfwebdav.vulcan.site/bbconf/2023-winter/%EB%A7%88%EB%85%80_JS%EB%8A%94_%EC%99%9C_%EC%9D%B4_%EB%AA%A8%EC%96%91%EC%9D%BC%EA%B9%8C.pdf"
-                >JavaScript의 초기 역사와 언어적인 선택들에 관한 발표</a
+                >🔗 발표 자료 링크</a
               >
             </li>
           </ul>
@@ -316,20 +364,23 @@
         <resume-section title="오픈소스 기여" period="2023 - 현재">
           <ul>
             <li>
+              웹 개발에 필수적인 MDN 영문 문서의 역사적인 오류 수정
               <a
                 href="https://github.com/mdn/content/pulls?q=is%3Apr+author%3A%08witch-factory"
-                >웹 개발에 필수적인 MDN 영문 문서의 역사적인 오류 수정</a
+                >🔗 PR 목록 링크</a
               >
             </li>
             <li>
+              MDN의 JavaScript 레거시 문법에 관한 문서를 한글 번역
               <a
                 href="https://github.com/mdn/translated-content/pulls?q=is%3Apr+author%3A%08witch-factory"
-                >MDN의 JavaScript 레거시 문법에 관한 문서를 한글 번역</a
+                >🔗 PR 목록 링크</a
               >
             </li>
             <li>
+              JavaScript의 역사에 관한 약 120쪽 분량의 논문 번역과 배포
               <a target="_blank" href="https://js-history.vercel.app/"
-                >JavaScript의 역사에 관한 약 120쪽 분량의 논문 번역, 배포</a
+                >🔗 배포 링크</a
               >
             </li>
           </ul>
@@ -337,20 +388,22 @@
         <resume-section title="학생 커뮤니티" period="2021 - 2024">
           <ul>
             <li>
+              GDG on Campus Hongik Univ., 개발자의 진로 설정에 관한 발표
               <a
                 target="_blank"
                 href="https://www.youtube.com/watch?v=SMMb56p7myg"
               >
-                GDG on Campus Hongik Univ., 개발자의 진로 설정에 관한 발표
+                🔗 발표 영상 링크
               </a>
             </li>
             <li>
+              GDG on Campus Hongik Univ., SW마에스트로 과정에서 배운 것에 관한
+              발표
               <a
                 target="_blank"
                 href="https://www.youtube.com/watch?v=RXpOaKQES-g"
               >
-                GDG on Campus Hongik Univ., SW마에스트로 과정에서 배운 것에 관한
-                발표
+                🔗 발표 영상 링크
               </a>
             </li>
             <li>
@@ -359,7 +412,7 @@
                 target="_blank"
                 href="https://github.com/witch-factory/presentations"
               >
-                당시 강의자료
+                🔗 강의자료 링크
               </a>
             </li>
             <li>
@@ -368,7 +421,7 @@
                 target="_blank"
                 href="https://www.acmicpc.net/contest/view/897"
               >
-                대회 페이지
+                🔗 대회 페이지 링크
               </a>
             </li>
             <li>
