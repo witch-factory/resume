@@ -1,242 +1,136 @@
-<h1 class="margin-bottom-sm">김성현(Kim Sung Hyun)</h1>
-<p>
-  프론트엔드 개발자입니다.
-  열정적인 사람들을 좇다가 개발자가 되었고 그들과 함께해 왔습니다. 
-  앞으로도 그렇게 살고자 합니다.
-</p>
-<section>
-  <h2>정보</h2>
-  <ul>
-    <li>
-      blog : <a href="https://witch.work">https://witch.work</a>
-    </li>
-    <li>
-      github : <a href="https://github.com/witch-factory">https://github.com/witch-factory</a>
-    </li>
-    <li>
-      contact
-      <address>
-        Email : <a href="mailto:soakdma37@gmail.com">soakdma37@gmail.com</a>
-        <br>
-        Phone : <a href="tel:+821076769194">010-7676-9194</a>
-      </address>
-    </li>
-  </ul>
-</section>
-<section>
-  <h2>프로젝트</h2>
-  <ul>
-    <li class="no-marker">
-      <h3 class="margin-bottom-sm">개인 블로그 제작(2023.05~2023.06)</h3>
-    </li>
-    <li class="no-marker">
-      페이지 링크 : <a target="_blank" href="https://witch.work/">
-        https://witch.work
-      </a>
-    </li>
-    <li class="no-marker">
-      github 링크 : <a target="_blank" href="https://github.com/witch-factory/witch-next-blog">
-        https://github.com/witch-factory/witch-next-blog
-      </a>
-    </li>
-    <li class="no-marker">
-      <ul>
-        <li>
-          NextJS를 기반으로 반응형의 개인 블로그를 제작하였습니다.
-        </li>
-        <li>
-          remark 플러그인을 작성하여 TOC 생성, 이미지 경로 수정, canvas를 이용한 글 썸네일 자동 생성 등을 구현하였습니다.
-        </li>
-        <li>
-          글 검색 기능과 디바운싱 최적화, 서버리스 DB를 사용한 조회수 카운터 등을 구현하였습니다.
-        </li>
-        <li>
-          연산 최적화, DOM Tree 축소, 압축과 CDN을 이용한 이미지 서빙 속도 개선 등을 통해 
-          lighthouse 성능 점수를 20점 이상 향상시켰습니다.
-        </li>
-        <li>
-          모든 결정에 이유를 붙일 수 있는 코드를 작성하고자 했으며 그 모든 과정을 
-          <a target="_blank" href="https://witch.work/posts?search=%EB%B8%94%EB%A1%9C%EA%B7%B8">블로그에 정리</a>하였습니다.
-        </li>
-      </ul>
-    </li>
-  </ul>
-  <ul>
-    <li class="no-marker">
-      <h3 class="margin-bottom-sm">밴드웨건 / 소프트웨어 마에스트로 13기(2022.07~2022.11)</h3>
-    </li>
-    <li class="no-marker">
-      github 링크 : <a href="https://github.com/swm-broccoli/bandwagon-frontend-revise">https://github.com/swm-broccoli/bandwagon-frontend-revise</a>
-    </li>
-    <li class="no-marker">
-      <ul>
-        <li>
-          사회인 밴드의 활동을 돕는 플랫폼 밴드웨건을 개발했습니다.
-        </li>
-        <li>
-          React와 TailwindCSS를 사용하여 약 10개의 페이지를 반응형 레이아웃으로 제작하였습니다.
-        </li>
-        <li>
-          사이트의 디자인에 맞게 캐로셀 컴포넌트를 직접 제작하고 그 과정을 <a href="https://witch.work/carousel-1/">블로그에 포스팅</a>하였습니다.
-        </li>
-        <li>
-          서버 통신에서의 경쟁상태를 해결하고 그 과정을 <a href="https://witch.work/front-bug-1/">블로그에 포스팅</a>하였습니다.
-        </li>
-      </ul>
-    </li>
-  </ul>
-  <ul>
-    <li class="no-marker">
-      <h3 class="margin-bottom-sm">터미널 텍스트 에디터 제작(2021.04~2021.06)</h3>
-    </li>
-    <li class="no-marker">
-      github 링크 : <a href="https://github.com/witch-factory/editor_project">https://github.com/witch-factory/editor_project</a>
-    </li>
-    <li class="no-marker">
-      <ul>
-        <li>
-          자료구조 수업에서 배운 지식을 활용하여 최적화한 터미널 기반의 텍스트 에디터를 제작하였습니다.
-        </li>
-        <li>
-          Linux의 텍스트 모드 UI 라이브러리인 ncurses를 사용하여 기본적인 텍스트 편집 기능과 C, C++ 신택스 하이라이팅을 구현하였습니다.
-        </li>
-        <li>
-          KMP 알고리즘을 활용하여 검색 최적화를 진행하였습니다.
-        </li>
-        <li>
-          트라이 자료구조와 그래프 탐색을 이용하여 변수명/함수명 자동완성 기능을 구현하였습니다.
-        </li>
-      </ul>
-    </li>
-  </ul>
-</section>
-<section>
-  <h2>활동</h2>
-  <ul>
-    <li class="no-marker">
-      <h3 class="margin-bottom-sm">GDSC Hongik(<a href="https://www.gdschongik.com/">링크</a>)</h3>
-    </li>
-    <li class="no-marker">
-      <small>홍익대학교의 개발 학회 GDSC Hongik에서 주관하는 DevTalk Seminar에서 외부 발표자로 발표하였습니다.</small>
-    </li>
-    <li>
-      '내가 소프트웨어 마에스트로에서 배운 것들'이라는 주제로, 프로젝트를 진행할 때 고려해야 할 사항들에 대해 발표하였습니다.
-    </li>
-    <li>
-      발표 영상(GDSC Hongik 채널) : <a href="https://www.youtube.com/watch?v=RXpOaKQES-g">https://www.youtube.com/watch?v=RXpOaKQES-g</a>
-    </li>
-  </ul>
-  <ul>
-    <li class="no-marker">
-      <h3 class="margin-bottom-sm">신촌지역 대학교 프로그래밍 동아리 연합(<a href="https://icpc-sinchon.io/suapc">링크</a>)</h3>
-    </li>
-    <li class="no-marker">
-      <small>신촌지역 5개 대학의 동아리 연합에서 활동하였습니다.</small>
-    </li>
-    <li>
-      100명 규모의 2022 겨울 신촌지역 대학교 프로그래밍 동아리 연합 알고리즘 캠프 초급반 강사 활동(<a href="https://github.com/witch-factory/2022-winter-sinchon-lecture">강의자료 링크</a>)
-    </li>
-    <li>
-      2023 겨울 신촌지역 대학교 프로그래밍 동아리 연합 알고리즘 캠프 콘테스트 중급 출제진(<a href="https://www.acmicpc.net/contest/view/948">대회 링크</a>)
-    </li>
-  </ul>
-  <br>
-  <ul>
-    <li class="no-marker">
-      <h3 class="margin-bottom-sm">서강대학교 컴퓨터공학과 알고리즘 문제해결 학회 Sogang ICPC Team(<a href="https://icpc.team/">링크</a>)</h3>
-    </li>
-    <li>
-      2022년 학회 최초로 복수전공 임원으로 활동
-    </li>
-    <li>
-      2022 서강대학교 프로그래밍 경진대회(SPC) 운영진(<a href="https://www.acmicpc.net/contest/view/897">대회 링크</a>)
-    </li>
-    <li>
-      2022 서강대학교 청정수컵 출제진/운영진(<a href="https://www.acmicpc.net/contest/view/796">대회 링크</a>)
-    </li>
-    <li>
-      2020~2022 학회 내 알고리즘 문제 풀이 스터디 운영
-    </li>
-  </ul>
-  <ul>
-    <li class="no-marker">
-      <h3 class="margin-bottom-sm">BBConf(<a href="https://bbconf.kr/">링크</a>)</h3>
-    </li>
-    <li class="no-marker">
-      <small>오픈카톡방 커뮤니티에서 시작한 오픈 컨퍼런스 BBConf에서 꾸준히 발표하고 있습니다.</small>
-    </li>
-    <li>
-      '마녀'라는 닉네임으로 2020년부터 컨퍼런스에 참석하였고 '텍스트 에디터 제작기', '소프트웨어 마에스트로 후기'등의 주제를 발표하였습니다.
-    </li>
-    <li>
-      발표자료 아카이브 : <a href="https://bbconf.kr/archive">https://bbconf.kr/archive</a>
-    </li>
-  </ul>
-</section>
-<section>
-  <h2>수상</h2>
-  <ul>
-    <li class="no-marker">
-      <h3 class="margin-bottom-sm">신촌지역 대학교 프로그래밍 동아리 연합(<a href="https://icpc-sinchon.io/suapc">링크</a>)</h3>
-    </li>
-    <li class="no-marker">
-      <small>신촌지역 5개 대학의 동아리 연합에서 주최한 대회 수상 내역입니다.</small>
-    </li>
-    <li>
-      2022 신촌지역 대학교 프로그래밍 동아리 연합 겨울 대회 5등(팀명 : ECM)
-    </li>
-    <li>
-      2021 신촌지역 대학교 프로그래밍 동아리 연합 여름 대회 9등(팀명 : ECM)
-    </li>
-    <li>
-      2021 여름 신촌지역 대학교 프로그래밍 동아리 연합 알고리즘 캠프 콘테스트 초급 3등
-    </li>
-  </ul>
-  <ul>
-    <li class="no-marker">
-      <h3 class="margin-bottom-sm">전국 대학생 프로그래밍 대회 동아리 연합(<a href="https://ucpc.me/">링크</a>)</h3>
-    </li>
-    <li>
-      2022년 여름 대회 본선 진출(팀명 : 축하합니다 김준호)
-    </li>
-  </ul>
-</section>
-<section>
-  <h2>교육</h2>
-  <ul>
-    <li class="no-marker">
-      <h3 class="margin-bottom-sm">서강대학교 기계공학과/컴퓨터공학과</h3>
-    </li>
-    <li>
-      2015.03 ~ 2023.02 
-    </li>
-    <li>
-      컴퓨터공학 전공학점 4.03/4.3
-    </li>
-    <li>
-      자료구조, 데이터베이스시스템, 알고리즘설계분석, 컴퓨터아키텍처, 기초컴퓨터네트워크, 운영체제 등의 CS 과목을 수강하였습니다.
-    </li>
-    <li>
-      운영체제 과목을 수강하며 관련 내용과 과제를 수행한 과정을 <a href="https://witch.work/?tag=os">블로그에 포스팅</a>하였습니다.
-    </li>
-  </ul>
-  <ul>
-    <li class="no-marker">
-      <h3 class="margin-bottom-sm">소프트웨어 마에스트로 13기</h3>
-    </li>
-    <li>
-      2022.07 ~ 2022.11
-    </li>
-    <li>
-      브로콜리 소마저 팀 팀장/프론트엔드 개발 담당
-    </li>
-  </ul>
-</section>
-<section>
-  <h2>외국어</h2>
-  <ul>
-    <li>
-      OPIc(영어) IM2(2023.03.10)
-    </li>
-  </ul>
-</section>
+# 김성현  
+깊이를 가리지 않고 문제를 해결하는 프론트엔드 개발자입니다.
+
+- **블로그**: [https://witch.work](https://witch.work)  
+- **GitHub**: [https://github.com/witch-factory](https://github.com/witch-factory)  
+- **이메일**: [soakdma37@gmail.com](mailto:soakdma37@gmail.com)
+
+---
+
+## 소개
+
+내부 동작 분석을 통한 최적화와 같은 깊이있는 작업부터 LLM을 활용한 번역 기능, 자동화 스크립트 작성, 백엔드 보강까지 다양한 문제를 정의하고 해결해 왔습니다. 기술적 선택과 학습에 관해 약 200편의 글을 작성해 왔으며 이 지식을 실무에 적용하기 위해 노력합니다. 문제의 깊이에 따라 적절한 방식으로 접근하며 다양한 수준에서 기여할 수 있는 개발자를 지향합니다.
+
+---
+
+## 경력
+
+### Tmax FinAI (프론트엔드 연구원)  
+보험 업무 전반을 위한 페이지 개발  
+`2023.08 - 2024.09`  
+**기술 스택**: React, TypeScript, styled-components, React Hook Form, TanStack Query
+
+#### ✅ 팀 생산성 향상 유틸리티 제작
+- API 명세를 표 형식으로 변환하는 도구를 만들고 팀에 공유하여 문서 작성 시간 50% 이상 단축
+- 보험 용어 목록과 입력 데이터를 비교해 검토하는 도구를 만들고 공유하여 수작업 검토 프로세스 80% 이상 자동화
+- 웹소켓 기반 사내 API 통신을 위해 TanStack Query로 제작한 커스텀 훅을 팀 내 공용 유틸리티로 공유
+
+#### ✅ 보험 업무 관련 페이지 구현
+- 사용자 조건에 따른 흐름 분기 및 상태 관리
+- 사고 조회 팝업 구현 및 다수 페이지 연동
+- 디자인 요구사항에 맞춰 24시간제 TimePicker 제작 및 접근성 대응
+- 공통 컴포넌트 타입 개선 및 재사용성 향상
+
+---
+
+## 프로젝트
+
+### 개인 블로그 제작  
+다국어를 지원하는 Next.js 기술 블로그
+`2023.05 - 현재`  
+**기술 스택**: Next.js, TypeScript, Vanilla Extract  
+[배포 링크](https://witch.work) | [GitHub](https://github.com/witch-factory/witch-next-blog)
+
+#### 🔨 블로그 구축
+- Next.js 12를 이용하여 블로그를 구현하고 RSC 업데이트 대응 등의 관리와 개선
+- remark 플러그인을 제작하여 TOC 제작, 마크다운 내의 이미지 경로 변경 자동화
+- SEO를 위해 OG 이미지 생성기, 사이트 메타데이터, 사이트맵, RSS 피드 도입
+- 최신 ESLint 9의 Flat Config를 프로젝트에 도입하고 설정 전환 과정 문서화 [🔗 정리 글 링크](https://witch.work/ko/posts/blog-eslint-configuration)
+
+#### 🎯 사용자 경험 개선
+- 블로그에 AI 기반 자동 번역 시스템 구축, 영어 지원을 통해 글로벌 확장성 강화 [🔗 정리 글 링크](https://witch.work/ko/posts/blog-auto-translation)
+- 사용자 브라우저의 언어에 맞게 자동으로 언어를 변경하도록 하고 SEO 설정 [🔗 정리 글 링크](https://witch.work/ko/posts/blog-content-i18n)
+- 페이지 최적화로 Lighthouse 기준 성능 점수 75점 → 95점으로 개선
+
+#### 🛠 운영 중 문제 해결
+- 데이터 구조 변경, 서드파티 코드 작성을 통해 번들 사이즈 70% 감축 [🔗 정리 글 링크](https://witch.work/ko/posts/blog-bundle-reduction)
+- pnpm 동작 방식으로 인한 ESLint 이슈 해결 [🔗 정리 글 링크](https://witch.work/ko/posts/blog-eslint-pnpm-bugfix)
+- 불필요한 데이터 로딩으로 인한 성능 저하 문제 해결 [🔗 정리 글 링크](https://witch.work/ko/posts/blog-fix20230808)
+
+---
+
+### 신촌 대학생 프로그래밍 동아리 연합  
+알고리즘 캠프 홈페이지 및 관리자 페이지 개발  
+`2024.05 - 2024.12`  
+**기술 스택**: Next.js, TypeScript, Radix UI, Express, Prisma, GCP  
+[홈페이지](https://icpc-sinchon.io)
+
+#### ✅ 프론트엔드 개발
+- Next.js 10 + JavaScript 코드를 Next.js 12 + TypeScript로 마이그레이션
+- 레거시의 작성자와 논의하여 코드가 작성된 맥락과 의도를 반영한 핵심 기능 중심으로 코드 리팩토링
+- 광범위한 요소를 선택하는 DOM API로 작성되어 유지보수가 어렵던 기존 컴포넌트들을 React와 Radix UI 기반으로 마이그레이션
+
+#### ✅ 백엔드 개발
+- 학생 정보 관리, 강의 출석 관리, 과제 제출 확인, 강의료 계산 등의 기능을 수행하는 API 서버 작성
+- 추후의 유지보수를 위해 Go 기반 코드 → Node.js, TypeScript, Prisma로 이관
+- 디스코드 비대면 강의를 위한 출석 봇을 discord.js 라이브러리로 구현 후 서버와 함께 배포
+
+---
+
+## 활동
+
+### 글 쓰는 개발자 모임, 글또 9-10기 
+우수 글을 선별하는 큐레이션(5% 미만 선정률)에 10편의 글 선정, 100명 규모 모임에서 발표 진행
+`2023 - 2025`  
+[글또 홈페이지](https://geultto.github.io/)
+
+- 글또 프론트엔드 반상회 발표 - '나의 방식으로 네트워킹 시작하기' [🔗 발표 자료 링크](https://github.com/witch-factory/presentations/blob/master/%EA%B8%80%EB%98%90_%EB%82%98%EC%9D%98_%EB%B0%A9%EC%8B%9D%EC%9C%BC%EB%A1%9C_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%82%B9_%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.pdf)
+- JavaScript의 특수한 주석 형식에 관한 글, 네이버 FE News 2024년 2월 큐레이션 선정 [🔗 큐레이션 링크](https://github.com/naver/fe-news/blob/master/issues/2024-02.md#js%EC%9D%98-%EC%A3%BC%EC%84%9D%EC%9D%80-%EA%B3%BC--%EB%BF%90%EB%A7%8C%EC%9D%B4-%EC%95%84%EB%8B%88%EB%8B%A4)
+- 클로저의 역사에 딥다이브하여 튜링 기계부터 JavaScript까지 되짚어 올라오는 글, 글또 10기 3회차 큐레이션 선정 [🔗 글 링크](https://witch.work/ko/posts/javascript-closure-deep-dive-history)
+- 컨텐츠 관리 라이브러리 velite의 소개 글, 글또 9기 10회차 큐레이션 선정 [🔗 글 링크](https://witch.work/ko/posts/velite-library-introduction)
+- 타입 시스템의 가변성을 TypeScript로 설명한 글, 글또 9기 1회차 큐레이션 선정 [🔗 글 링크](https://witch.work/ko/posts/typescript-covariance-theory)
+
+---
+
+### BBConf  
+30명 규모의 오픈 컨퍼런스
+`2021 - 현재`  
+[홈페이지](https://bbconf.kr/)
+
+- 컴퓨터, 네트워크, 웹에 관한 간략한 역사와 오해를 바로잡는 발표 [🔗 발표 자료 링크](https://bbconfwebdav.vulcan.site/bbconf/2024-winter/%ea%b9%80%ec%84%b1%ed%98%84_%eb%b8%8c%eb%9d%bc%ec%9a%b0%ec%a0%80%ec%97%90%20google%ec%9d%84%20%ec%b9%98%eb%a9%b4%20%ec%83%9d%ea%b8%b0%eb%8a%94%20%ec%9d%bc%ea%b9%8c%ec%a7%80%20%ec%83%9d%ea%b8%b4%20%ec%9d%bc.pdf)
+- 블로그를 오랫동안 운영하는 동력을 얻고 좋은 글을 쓰기 위한 노하우에 대한 발표 [🔗 발표 자료 링크](https://bbconfwebdav.vulcan.site/bbconf/2024-summer/%eb%a7%88%eb%85%80_%eb%b8%94%eb%a1%9c%ea%b7%b8%eb%a1%9c_%ec%a7%84%ec%a7%9c_%ea%b0%9c%eb%b0%9c%ec%9e%90%ec%b2%98%eb%9f%bc_%eb%b3%b4%ec%9d%b4%eb%8a%94_%eb%b2%95.pdf)
+- JavaScript의 초기 역사와 언어적인 선택들에 관한 발표 [🔗 발표 자료 링크](https://bbconfwebdav.vulcan.site/bbconf/2023-winter/%EB%A7%88%EB%85%80_JS%EB%8A%94_%EC%99%9C_%EC%9D%B4_%EB%AA%A8%EC%96%91%EC%9D%BC%EA%B9%8C.pdf)
+
+---
+
+### 지식 공유 오픈소스 활동
+`2023 - 현재`
+
+- 웹 개발에 필수적인 MDN 영문 문서의 역사적인 오류 수정 [🔗 PR 목록 링크](https://github.com/mdn/content/pulls?q=is%3Apr+author%3A%08witch-factory)
+- MDN의 JavaScript 레거시 문법에 관한 문서를 한글 번역 [🔗 PR 목록 링크](https://github.com/mdn/translated-content/pulls?q=is%3Apr+author%3A%08witch-factory)
+- JavaScript의 역사에 관한 약 120쪽 분량의 논문 번역, 배포 [🔗 배포 링크](https://js-history.vercel.app/)
+
+---
+
+### 학생 커뮤니티 기여
+`2021 - 2024`
+
+- GDG on Campus Hongik Univ., SW마에스트로 과정에서 배운 것에 관한 발표 [🔗 발표 영상 링크](https://www.youtube.com/watch?v=RXpOaKQES-g)
+- GDG on Campus Hongik Univ., 개발자의 진로 설정에 관한 발표 [🔗 발표 영상 링크](https://www.youtube.com/watch?v=SMMb56p7myg)
+- 신촌 지역 대학생 약 100명을 대상으로 겨울방학 알고리즘 강의 진행 [🔗 강의자료 링크](https://github.com/witch-factory/presentations)
+- 서강대학교 프로그래밍 경진대회(SPC) 운영진 [🔗 대회 페이지 링크](https://www.acmicpc.net/contest/view/897)
+- 서강대학교 알고리즘 학회 2022년 임원진으로 활동하며 스터디 진행, 2개의 대회 운영
+
+---
+
+## 교육
+
+### 서강대학교  
+기계공학과 / 컴퓨터공학과 졸업  
+`2015.03 - 2023.02`  
+- 컴퓨터공학 전공 GPA: 4.03 / 4.3
+
+### 소프트웨어 마에스트로 13기  
+`2022.07 - 2022.11`  
+- 밴드 활동 플랫폼 "밴드웨건" 개발  
+- React, zustand, Tailwind CSS 사용
